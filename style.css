@@ -7,72 +7,155 @@
     align-items: center;
     padding: 20px;
     flex-flow: row wrap;
-    background-color:#555830;
+    background-color: #555830;
     color: white;
     font-size: 30px;
+    text-decoration: none;
 }
+
 .navbox {
     flex: 1;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+   
 }
 
 .box {
     background-color: #555830;
+   
 }
+a{
+    color: white;
+}
+/* header */
 .header {
-    display:flex;
+    display: flex;
     justify-content: center;
     background-color: #BC3110;
     padding: 5px;
     color: #CDD3D0;
 }
-.headerbox{
+
+.headerbox {
     font-family: 'Salsa', cursive;
     font-size: 30px;
     padding: 5px;
 }
+/*body*/
 body {
     background-color: #D5AF10;
     min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
 
-.welcome{
+}
+/* welcome text */
+.welcome {
     display: flex;
     justify-content: center;
-
+    padding-top: 75px;
+    padding-bottom: 30px;
 }
 
-.welcomebox{
+.welcomebox {
     display: flex;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 900;
 }
-
-.row{
+/*pictures and text */
+.row {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     align-content: center;
-    padding: 100px;
+
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
+
 }
 
+.rowbox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+/*map page items*/
+.map {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+
+}
+
+.mapbox{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    padding-top: 110px;
+}
+/*map list*/
+.list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+
+}
+.listbox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+h2{
+    font-size: 35px;
+    font-family: 'Salsa', cursive;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*booking forms*/
+.booking {
+    padding-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+input {
+    width: 95%;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-shadow: 5px 5px 5px grey;
+}
+input [type="submit"]{
+    width: 1%;
+}
+input [type="reset"]{
+    width: 15%;
+}
+/*footer*/
 footer {
     flex-shrink: 0;
     width: 100%;
     background-color: black;
     margin-top: 1.5rem;
 }
+
 ul {
     padding: 1.25rem;
     text-align: center;
     color: white;
 }
-ul li{
+
+ul li {
     list-style-type: none;
     display: inline-block;
     margin: 0.5rem 5rem;
+    font-family: 'Salsa', cursive;
 }

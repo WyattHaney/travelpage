@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="navbox box"><a href="index.html">Home</a></div>
+        <div class="navbox box"><a href="book.html">Booking</a></div>
+        <div class="navbox box"><a href="map.html">Map</a></div>
+    </nav>
+
+<div class="header">
+    <div class="headerbox">
+        <h1>Booking</h1>
+    </div>
+</div>
+<div class="booking">
+    <form action="thanks.html" method="get">
+        <fieldset>
+            <legend>Booking Info</legend>
+        <label for="custName">Name
+            <input type="text" name="custName" id="custName" placeholder="Your Name"  autofocus required>
+        </label>
+        <label>Email
+            <input type="email" name="email" id="email" placeholder="Email" required>
+        </label>
+        <label for="sdate">Starting Date</label>
+            <input type="date" id="sdate" name="sdate">
+        <label for="edate">Ending Date</label>
+            <input type="date" id="edate" name="edate">
+        <label for="phoneNum">Phone number:</label>
+            <input type="text" id="phoneNum" name="phoneNum" placeholder="Phone Number">
+        <label for="place">Choose a destination:</label>
+            <select name="place" id="place">
+                <option value="Montego Bay">Montego Bay</option>
+                <option value="Negril">Negril</option>
+                <option value="Smile">Smile</option>
+                <option value="Port Antonio">Port Antonio</option>
+                <option value="Ocho Rios">Ocho Rios</option>
+                <option value="Falmouth">Falmouth</option>
+            </select>
+        </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset">
+    </form>
+    </div>
+    <footer>
+        <ul>
+            <li>Thank you for visiting!</li>
+            <li>&copy; Wyatt Haney</li>
+        </ul>
+    </footer>
+</body>
+</html>
